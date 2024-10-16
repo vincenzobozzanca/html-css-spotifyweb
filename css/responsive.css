@@ -4,12 +4,36 @@
     /* Side Bar */
     .side-bar {
         width: 200px;
+		justify-content: flex-start;
     }
 
     /* Main Section */
     .main-section {
         width: calc(100% - 200px);
     }
+	.logo-mobile{
+		display: none;
+	}
+	.nav-mobile-l{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		max-width: 50%;
+		padding: 10px;
+	}
+	.nav-mobile-l img{
+		max-width: 50%;
+	}
+	.logo{
+		display: flex;
+		max-width: 100%;
+		padding: 10px;
+	}
+	.nav-mobile-l ul{
+		color:white;
+		display: flex;
+		align-items: center;
+	}
 }
 
 /* Responsive Tablet */
