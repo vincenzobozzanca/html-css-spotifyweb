@@ -1,0 +1,23 @@
+/* Responsive Mobile Large */
+@media screen and (min-width: 375px) {
+
+    /* Side Bar */
+    .side-bar {
+        width: 200px;
+    }
+
+    /* Main Section */
+    .main-section {
+        width: calc(100% - 200px);
+    }
+}
+
+/* Responsive Tablet */
+@media screen and (min-width: 425px) {
+    
+}
+
+/* Responsive Desktop */
+@media screen and (min-width: 768px) {
+
+}
