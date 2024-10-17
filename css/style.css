@@ -69,6 +69,9 @@ a {
 .logo{
 	display:none;
 }
+.nav-mobile-low{
+	display: none;
+}
 /* Main Section */
 .main-section {
     width: calc(100% - 50px);

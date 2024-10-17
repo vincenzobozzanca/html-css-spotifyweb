@@ -4,7 +4,8 @@
     /* Side Bar */
     .side-bar {
         width: 200px;
-		justify-content: flex-start;
+		justify-content: space-between;
+	
     }
 
     /* Main Section */
@@ -18,22 +19,48 @@
 		display: flex;
 		justify-content: space-between;
 		flex-direction: column;
-		max-width: 50%;
+		max-width: 100%;
 		padding: 10px;
 	}
-	.nav-mobile-l img{
-		max-width: 50%;
+	.nav-mobile-low{
+		display: flex;
+		flex-direction: column;
+		max-width: 100%;
+		padding: 10px;
 	}
-	.logo{
+	.nav-mobile-low img{
+		max-width: 25%;
+	}
+	
+	.nav-mobile-l img{
+		max-width: 25%;
+	}
+	.nav-mobile-low ul{
+		color:white;
+		display: flex;
+		align-items: center;
+		
+	}
+	.nav-mobile-l .logo{
 		display: flex;
 		max-width: 100%;
 		padding: 10px;
+		padding-left: 0%;
 	}
 	.nav-mobile-l ul{
 		color:white;
 		display: flex;
 		align-items: center;
+		
 	}
+	.nav-mobile-l h1{
+		color:white;
+		display: flex;
+		align-items: center;
+		margin:2em;
+		margin-left: 0%;
+	}
+	
 }
 
 /* Responsive Tablet */
