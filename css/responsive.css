@@ -63,16 +63,16 @@
 	
 }
 
-/* Responsive Tablet */
-@media screen and (min-width: 425px) {
+
+@media screen and (min-width: 768px) {
     :root {
         --col-width: calc((100% - 30px) / 4)
     }
 }
 
-/* Responsive Desktop */
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 1024px) {
 	:root {
-        --col-width: calc((100% - 50px) / 6)
+        --col-width: calc((100% - 30px) / 7)
     }
 }
