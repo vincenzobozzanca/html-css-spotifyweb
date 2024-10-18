@@ -7,7 +7,7 @@
 		justify-content: space-between;
 	
     }
-
+	
     /* Main Section */
     .main-section {
         width: calc(100% - 200px);
@@ -41,10 +41,10 @@
 		align-items: center;
 		
 	}
-	.nav-mobile-l .logo{
-		display: flex;
-		max-width: 100%;
-		padding: 10px;
+	.nav-mobile-l .logo {
+        display: flex;
+        max-width: 100%;
+        padding: 10px;
 		padding-left: 0%;
 	}
 	.nav-mobile-l ul{
@@ -65,10 +65,14 @@
 
 /* Responsive Tablet */
 @media screen and (min-width: 425px) {
-    
+    :root {
+        --col-width: calc((100% - 30px) / 4)
+    }
 }
 
 /* Responsive Desktop */
 @media screen and (min-width: 768px) {
-
+	:root {
+        --col-width: calc((100% - 50px) / 6)
+    }
 }
